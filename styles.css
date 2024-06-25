@@ -1,0 +1,14 @@
+* styles.css */
+#input-section {
+    display: block;
+}
+
+#resume-section {
+    display: none;
+}
+
+#generate-resume:hover {
+    cursor: pointer;
+}
+
+/* Add more styles as needed */
