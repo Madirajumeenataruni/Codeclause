@@ -1,0 +1,21 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Sharing System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>File Sharing System</h1>
+    <form id="upload-form">
+        <input type="file" id="file" name="file">
+        <input type="password" id="password" name="password" placeholder="Password (optional)">
+        <input type="datetime-local" id="expiry" name="expiry" placeholder="Expiry Date and Time (optional)">
+        <button id="upload-btn">Upload File</button>
+    </form>
+    <div id="upload-status"></div>
+    <script src="script.js"></script>
+</body>
+</html>
